@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="card" *ngFor="let newsItem of newsItems">
+      <div class="card-header">{{ newsItem.title }}</div>
+      <div class="card-body">
+        <p class="card-text">{{ newsItem.description }}</p>
+      </div>
+    </div>
+  </div>
